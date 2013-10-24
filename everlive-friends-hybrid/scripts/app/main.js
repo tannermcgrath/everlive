@@ -36,7 +36,7 @@ var app = (function () {
 
 	var applicationSettings = {
 		emptyGuid: '00000000-0000-0000-0000-000000000000',
-		apiKey: 'EVERLIVE_API_KEY' //Put your API key here
+		apiKey: 'LiDtjuoQrGSBAu7h' //Put your API key here
 	};
 
 	// initialize Everlive SDK
