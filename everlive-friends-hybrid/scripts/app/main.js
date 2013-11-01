@@ -40,10 +40,11 @@ var app = (function () {
 	};
 
 	// initialize Everlive SDK
-	var el = new Everlive({
-		apiKey: applicationSettings.apiKey
-	});
-
+    var el = new Everlive({
+                    apiKey: applicationSettings.apiKey,
+                    scheme: "http"
+     });
+    
 	var facebook = new IdentityProvider({
 		name: "Facebook",
 		loginMethodName: "loginWithFacebook",
